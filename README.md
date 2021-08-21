@@ -8,7 +8,7 @@
 提交方法选择本地自拍包，触发器选择新建api服务，将scf.zip上传并部署
 部署成功后复制 触发管理 里面的访问路径，填写在mitm.py中
 客户端安装mitmproxy
-运行mitmproxy -s mitm.py --listen-port 8082
+运行mitmdump -s mitm.py --listen-port 8082
 
 
 只适用于轻量使用，因为比较慢，水平有限，只进行了简单粗暴的转发
